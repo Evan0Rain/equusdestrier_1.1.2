@@ -1,0 +1,54 @@
+[
+  {
+    "ingredientPattern": "NPN,PSP,CPC",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [ "iron","copper","steel","tinbronze","bismuthbronze","blackbronze", "silver", "gold" ],
+        "quantity": 4
+      },
+      "S": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal",
+        "allowedVariants": [ "iron","copper","steel","tinbronze","bismuthbronze","blackbronze", "silver", "gold" ],
+        "quantity": 2
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-*",
+        "name": "metal",
+        "allowedVariants": [ "iron","copper","steel","tinbronze","bismuthbronze","blackbronze", "silver", "gold" ],
+        "quantity": 4
+      }
+    },
+    "name": "barding",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "barding-plate-{metal}",
+      "quantity": 1
+    }
+  },
+  {
+		"ingredientPattern": "A,M",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": { "type": "item", "code": "barding-plate-{metal}"  },
+			"M": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants":  [ "iron","copper","steel","tinbronze","bismuthbronze","blackbronze", "silver", "gold" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"averageDurability": false,
+		"name": "barding repair",
+		"output": { "type": "item", "code": "barding-plate-{metal}"  }
+	}
+]

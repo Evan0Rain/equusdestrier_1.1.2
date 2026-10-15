@@ -1,0 +1,86 @@
+{
+	"code": "unhandledhorse",
+	"class": "EntityAgent",
+	"tags": ["animal", "tamed", "habitat-land"],
+	"inheritFrom": "equusdestrier:entities/destrier/destrier",
+	"variantgroups": [
+		{"code": "age","states": [ "adult"]},
+		{ "code": "gender","states": [ "female","male"]},
+		{ "code": "type","states": [ "destrier"]}
+	],
+	"behaviorConfigs": {
+				"selectionboxes": {
+			"selectionBoxes": [ "RidingAP" ],
+			"enabledByType": {
+				"*adult*": true,
+				"*": false
+			}
+		},		
+		"attachable": {
+			"wearableSlots": [
+				{ "code": "Riding-{type}", "forCategoryCodes": [""], "attachmentPointCode": "RidingAP", "stepParentTo": { "": { "elementName": "RidingStorage" } }, "behindSlots": ["lowerback-destrier","lowerbackside-destrier"] }
+		],
+		"enabledByType": {
+				"*adult*": true,
+				"*": false
+			}
+		},
+		"jaunt:rideable": {
+			"saddleBreakGait": "saddlebreak",
+			"saddleBreaksRequired": { "avg": 5, "var": 2 }, 
+			"saddleBreakDayInterval": 0,
+			"tamedEntityCode": "equusdestrier:horse-{age}-{gender}-{type}"
+		}
+	},
+	"drops": [],
+	"client": {
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics"},
+			{ "code": "mortallywoundable", "WhenBelowHealth": 6, "enabledByType": {"*": true} },
+			{ "code": "floatupwhenstuck","onlyWhenDead": true},
+			{ "code": "genelib.genetics"},
+			{ "code": "interpolateposition" },
+			{ "code": "health" },
+			{ "code": "harvestable"},
+			{ "code": "genelib.multiply"},
+			{ "code": "milkable", "enabledByType": { "*-adult-female-*" : true, "*": false }},
+			{ "code": "ownable"},
+			{ "code": "attachable"},
+			{ "code": "jaunt:rideable"},
+			{ "code": "selectionboxes"},
+			{ "code": "ropetieable" },
+			{ "code": "jaunt:gait" },
+			{ "code": "jaunt:stamina" },
+			{ "code": "genelib.info", "showtagonlywhentargeted": true }
+		]
+	},
+	"server": {
+		"behaviors": [
+			{ "code": "ownable"},
+			{ "code": "mortallywoundable", "WhenBelowHealth": 6, "enabledByType": {"*": true} },
+			{ "code": "repulseagents" },
+			{ "code": "genelib.genetics"},
+			{ "code": "controlledphysics"},
+			{ "code": "taskai"},
+			{ "code":"emotionstates"},
+			{ "code": "health"},
+			{ "code": "deaddecay"},
+			{ "code": "floatupwhenstuck","onlyWhenDead": true},
+			{ "code": "harvestable"	},
+			{ "code": "breathe" },
+			{ "code": "genelib.multiply" },
+			{"code": "milkable"},
+			{ "code": "grow"},
+			{ "code": "pettable", "minGeneration": 0},
+			{ "code": "selectionboxes", "minGeneration": 0 },
+			{ "code": "attachable", "minGeneration": 0 },
+			{ "code": "jaunt:gait"},
+			{ "code": "jaunt:rideable" },
+			{ "code": "jaunt:stamina" },
+			{ "code": "ropetieable" },
+			{ "code": "genelib.info", "showtagonlywhentargeted": true },
+			{ "code": "entitystatetags" }
+		]
+	}
+}

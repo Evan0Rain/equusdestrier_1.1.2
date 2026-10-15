@@ -1,0 +1,117 @@
+{
+	"code": "blanket",
+	"variantgroups": [
+		{
+			"code": "style",
+			"states": [ "cloth", "linen" ]
+		},
+		{
+			"code": "color",
+			"states": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "normal", "purple", "red", "white", "yellow" ]
+		}
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"attributes": {
+		"isBlanket": true,		
+		"useSoundByType": {
+            "*": "game:sounds/wearable/leather*",
+          },
+		"handbook": {
+			"groupBy": [ "*blanket-{style}*" ],
+		},
+		"groundStorageTransform": {
+			"rotation": {
+				"x": 0,
+				"y": 90,
+				"z": 0
+			}
+		},
+		"attachableToEntity": {
+			"categoryCodeByType": {
+				"*": "destrierblanket"
+			},
+			"attachedShapeBySlotCodeByType": {
+				"*": {
+					"*": { "base": "item/wearable/destrierblanket" }
+				}
+			}
+		},
+		"interactPassthroughByType": {
+			"*": true
+		}
+	},
+	"shapeByType": {
+		"*": { "base": "item/wearable/destrierblanket-inventory" }
+	},
+	"texturesByType": {
+		"*linen-normal*": {
+			"blanket": { "base": "game:block/cloth/linen/normal1" },
+			"blanketextra": { "base": "game:block/cloth/basic/normal" }
+		},
+		"*cloth-normal*": {
+			"blanket": { "base": "game:block/cloth/basic/normal" },
+			"blanketextra": { "base": "game:block/cloth/linen/normal1" }
+		},
+		"*linen-*": {
+			"blanket": { "base": "game:block/cloth/linen/{color}" },
+			"blanketextra": { "base": "game:block/cloth/basic/{color}" }
+		},
+		"*cloth-*": {
+			"blanket": { "base": "game:block/cloth/basic/{color}" },
+			"blanketextra": { "base": "game:block/cloth/linen/{color}" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+	},
+	"behaviorsByType": {
+		"*": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+					"layout": "Halves"
+				}
+			},
+			{"name": "jaunt:attachments"}
+		]
+	},
+	"maxStackSize": 1,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"equus": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 8,
+				"y": 95,
+				"z": -21
+			},
+			"origin": {
+				"x": 0.6,
+				"y": 0.01,
+				"z": 0.48
+			},
+			"scale": 2.93
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: -0, z: 0.5299 },
+		scale: 4.57
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: -1.4, z: -1.4 },
+		rotation: { x: 0, y: -96, z: -90 },
+		scale: 0.51
+	}
+}

@@ -1,0 +1,209 @@
+{
+			"money": { "avg": 50, "var": 20 },
+			"selling": {
+				"maxItems": 40,
+				"list": [
+										{
+						"code": "equusdestrier:schematics-destrier",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 1.25
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:saddle-basic-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 25,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:pillion",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:bridle-hold-basic",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:bridle-press-basic",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:blanket-cloth-normal",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:blanket-linen-normal",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:saddlebag-sidebag-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 25,
+							"var": 0.0
+						}
+					},
+					{
+						"code": "equusdestrier:saddlebag-cantlebag-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 20,
+							"var": 0.0
+						}
+					}	
+				]
+			},
+			"buying": {
+				"maxItems": 16,
+				"list": [			
+					{
+						"code": "game:hay-normal-ud",
+						"type": "block",
+						"stacksize": 32,
+						"stock": {
+							"avg": 5,
+							"var": 0.25
+						},
+						"price": {
+							"avg": 1,
+							"var": 0.25
+						}
+					},
+					{
+                "code": "leather-normal-plain",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 5,
+                    "var": 1.25
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+			{
+                "code": "flaxtwine",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "sewingkit",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+			{
+                "code": "ingot-iron",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 4,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+			{
+                "code": "ingot-gold",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+
+				]
+			}
+}

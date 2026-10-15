@@ -1,0 +1,261 @@
+{
+
+    "game:creaturegroup-horse-destrier": "Destrier",
+    "game:tabname-equus": "Equus: Horses",
+
+	"equusdestrier:item-creature-horse-juvenile-female-destrier": "Молода кобилка дестрієра",
+	"equusdestrier:item-creature-horse-juvenile-male-destrier": "Молодий жеребчик дестрієра",
+
+	"equusdestrier:item-creature-horse-yearling-female-destrier": "Річна кобилка дестрієра",
+	"equusdestrier:item-creature-horse-yearling-male-destrier": "Річний жеребчик дестрієра",
+
+	"equusdestrier:item-creature-horse-adult-female-destrier": "Кобила дестрієра",
+	"equusdestrier:item-creature-horse-adult-male-destrier": "Жеребець дестрієра",
+
+	"equusdestrier:item-creature-horse-baby-female-destrier": "Лошиця дестрієра",
+	"equusdestrier:item-creature-horse-baby-male-destrier": "Лошак дестрієра",
+
+
+	"equusdestrier:item-creature-unhandledhorse-adult-female-destrier": "Необ’їжджена кобила дестрієра",
+	"equusdestrier:item-creature-unhandledhorse-adult-male-destrier": "Необ’їжджений жеребець дестрієра",
+
+    "equusdestrier:itemdesc-creature-unhandledhorse-adult-*-destrier": "Необ’їжджений дестрієр. <br> Цього коня неможливо знайти в дикій природі, лише купити у конюха або розводити",
+    "equusdestrier:itemdesc-creature-horse-adult-*-destrier": "Навчений дестрієр. <br> Цього коня неможливо знайти в дикій природі, лише купити у конюха або розводити",
+    "equusdestrier:itemdesc-creature-horse-juvenile-*-destrier": "Цього коня неможливо знайти в дикій природі, лише розводити з куплених дестрієрів",
+    "equusdestrier:itemdesc-creature-horse-yearling-*-destrier": "Цього коня неможливо знайти в дикій природі, лише розводити з куплених дестрієрів",
+    "equusdestrier:itemdesc-creature-horse-baby-*-destrier": "Цього коня неможливо знайти в дикій природі, лише розводити з куплених дестрієрів",
+
+
+    "equusdestrier:item-dead-creature-*horse-adult-female-destrier": "Мертва кобила дестрієра",
+    "equusdestrier:item-dead-creature-*horse-adult-male-destrier": "Мертвий жеребець дестрієра",
+    "equusdestrier:item-dead-creature-horse-baby-female-destrier": "Мертва лошиця дестрієра",
+    "equusdestrier:item-dead-creature-horse-baby-male-destrier": "Мертвий лошак дестрієра",
+
+    "equusdestrier:item-dead-creature-horse-juvenile-female-destrier": "Мертва молода кобилка дестрієра",
+    "equusdestrier:item-dead-creature-horse-juvenile-male-destrier": "Мертвий молодий жеребчик дестрієра",
+    "equusdestrier:item-dead-creature-horse-yearling-female-destrier": "Мертва річна кобилка дестрієра",
+    "equusdestrier:item-dead-creature-horse-yearling-male-destrier": "Мертвий річний жеребчик дестрієра",
+
+	"game:prefixandcreature-horseadultfemaledestrier": "Кобила дестрієра",
+	"game:prefixandcreature-horseadultmaledestrier": "Жеребець дестрієра",
+	"game:prefixandcreature-horsebabyfemaledestrier": "Лошиця дестрієра",
+	"game:prefixandcreature-horsebabymaledestrier": "Лошак дестрієра",
+
+
+	"equusdestrier:item-creature-traderhorse-adult-female-destrier": "Торгова кобила дестрієра",
+	"equusdestrier:item-creature-traderhorse-adult-male-destrier": "Торговий жеребець дестрієра",
+	"equusdestrier:item-creature-traderhorse-baby-female-destrier": "Торгова лошиця дестрієра",
+	"equusdestrier:item-creature-traderhorse-baby-male-destrier": "Торговий лошак дестрієра",
+
+	"game:item-creature-trader-*-saddlemaker-cold": "Сідляр (холодний)",
+	"game:item-creature-trader-*-saddlemaker-desert": "Сідляр (пустеля)",
+	"game:item-creature-trader-*-saddlemaker-temperate": "Сідляр (помірний)",
+
+	"game:item-creature-trader-*-stablemaster-cold": "Конюший (холодний)",
+	"game:item-creature-trader-*-stablemaster-desert": "Конюший (пустеля)",
+	"game:item-creature-trader-*-stablemaster-temperate": "Конюший (помірний)",
+
+	"game:item-creature-trader-*-tackspecialist-cold": "Майстер спорядження (холодний)",
+	"game:item-creature-trader-*-tackspecialist-desert": "Майстер спорядження (пустеля)",
+	"game:item-creature-trader-*-tackspecialist-temperate": "Майстер спорядження (помірний)",
+
+
+	"game:tradingwindow-trader-*-saddlemaker-*": "Місцеві товари — {0}, сідляр",
+	"game:tradingwindow-trader-*-stablemaster-*": "Місцеві товари — {0}, конюший",
+	"game:tradingwindow-trader-*-tackspecialist-*": "Місцеві товари — {0}, майстер спорядження",
+
+
+	"equusdestrier:item-barding-plate-bismuthbronze": "Пластинчасте бардування з вісмутової бронзи",
+	"equusdestrier:item-barding-plate-blackbronze": "Пластинчасте бардування з чорної бронзи",
+	"equusdestrier:item-barding-plate-copper": "Пластинчасте бардування з міді",
+	"equusdestrier:item-barding-plate-iron": "Пластинчасте бардування із заліза",
+	"equusdestrier:item-barding-plate-steel": "Пластинчасте бардування зі сталі",
+	"equusdestrier:item-barding-plate-tinbronze": "Пластинчасте бардування з олов’яної бронзи",
+	"equusdestrier:item-barding-plate-meteoriciron": "Пластинчасте бардування з метеоритного заліза",
+	"equusdestrier:item-barding-plate-gold": "Пластинчасте бардування із золота",
+	"equusdestrier:item-barding-plate-silver": "Пластинчасте бардування зі срібла",
+
+	"equusdestrier:item-blanket-cloth-black": "Чорна тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-blue": "Синя тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-brown": "Коричнева тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-gray": "Сіра тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-green": "Зелена тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-normal": "Звичайна тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-orange": "Помаранчева тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-pink": "Рожева тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-purple": "Фіолетова тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-red": "Червона тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-white": "Біла тканинна попона дестрієра",
+	"equusdestrier:item-blanket-cloth-yellow": "Жовта тканинна попона дестрієра",
+
+	"equusdestrier:item-blanket-linen-black": "Чорна лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-blue": "Синя лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-brown": "Коричнева лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-gray": "Сіра лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-green": "Зелена лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-normal": "Звичайна лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-orange": "Помаранчева лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-pink": "Рожева лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-purple": "Фіолетова лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-red": "Червона лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-white": "Біла лляна попона дестрієра",
+	"equusdestrier:item-blanket-linen-yellow": "Жовта лляна попона дестрієра",
+
+
+	"equusdestrier:item-bridle-hold-basic": "Вуздечка дестрієра з трензельними поводами",
+	"equusdestrier:item-bridle-press-basic": "Вуздечка дестрієра з мундштуковими поводами",
+
+	"equusdestrier:itemdesc-bridle-hold-*": "Корисна для точних коротких подорожей",
+	"equusdestrier:itemdesc-bridle-press-*": "Корисна для далеких подорожей",
+
+	"equusdestrier:item-pillion": "Піліон дестрієра",
+
+	"equusdestrier:item-saddle-basic-black": "Чорне сідло дестрієра",
+	"equusdestrier:item-saddle-basic-blue": "Синє сідло дестрієра",
+	"equusdestrier:item-saddle-basic-brown": "Коричневе сідло дестрієра",
+	"equusdestrier:item-saddle-basic-gray": "Сіре сідло дестрієра",
+	"equusdestrier:item-saddle-basic-green": "Зелене сідло дестрієра",
+	"equusdestrier:item-saddle-basic-orange": "Помаранчеве сідло дестрієра",
+	"equusdestrier:item-saddle-basic-pink": "Рожеве сідло дестрієра",
+	"equusdestrier:item-saddle-basic-plain": "Звичайне сідло дестрієра",
+	"equusdestrier:item-saddle-basic-purple": "Фіолетове сідло дестрієра",
+	"equusdestrier:item-saddle-basic-red": "Червоне сідло дестрієра",
+	"equusdestrier:item-saddle-basic-white": "Біле сідло дестрієра",
+	"equusdestrier:item-saddle-basic-yellow": "Жовте сідло дестрієра",
+
+	"equusdestrier:item-saddle-bismuthbronze-none-plain": "Сідлова броня дестрієра з вісмутової бронзи",
+	"equusdestrier:item-saddle-copper-none-plain": "Сідлова броня дестрієра з міді",
+	"equusdestrier:item-saddle-iron-none-plain": "Сідлова броня дестрієра із заліза",
+	"equusdestrier:item-saddle-steel-none-plain": "Сідлова броня дестрієра зі сталі",
+	"equusdestrier:item-saddle-tinbronze-none-plain": "Сідлова броня дестрієра з олов’яної бронзи",
+
+	"equusdestrier:item-saddlebag-cantlebag-black": "Чорна задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-blue": "Синя задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-brown": "Коричнева задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-gray": "Сіра задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-green": "Зелена задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-orange": "Помаранчева задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-pink": "Рожева задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-plain": "Звичайна задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-purple": "Фіолетова задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-red": "Червона задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-white": "Біла задня торба дестрієра",
+	"equusdestrier:item-saddlebag-cantlebag-yellow": "Жовта задня торба дестрієра",
+
+	"equusdestrier:item-saddlebag-saddlepack-brown": "Коричневий сідельний мішок дестрієра",
+
+	"equusdestrier:item-saddlebag-sidebag-black": "Чорні сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-blue": "Сині сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-brown": "Коричневі сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-gray": "Сірі сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-green": "Зелені сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-orange": "Помаранчеві сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-pink": "Рожеві сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-plain": "Звичайні сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-purple": "Фіолетові сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-red": "Червоні сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-white": "Білі сакви дестрієра",
+	"equusdestrier:item-saddlebag-sidebag-yellow": "Жовті сакви дестрієра",
+
+	"equusdestrier:item-creature-hitchingpost-decorative": "Декоративний прив’язний стовп",
+	"equusdestrier:item-creature-hitchingpost-acacia": "Прив’язний стовп з акації",
+	"equusdestrier:item-creature-hitchingpost-aged": "Старий прив’язний стовп",
+	"equusdestrier:item-creature-hitchingpost-baldcypress": "Прив’язний стовп з болотного кипариса",
+	"equusdestrier:item-creature-hitchingpost-birch": "Прив’язний стовп з берези",
+	"equusdestrier:item-creature-hitchingpost-ebony": "Прив’язний стовп з ебену",
+	"equusdestrier:item-creature-hitchingpost-kapok": "Прив’язний стовп з капоку",
+	"equusdestrier:item-creature-hitchingpost-larch": "Прив’язний стовп з модрини",
+	"equusdestrier:item-creature-hitchingpost-maple": "Прив’язний стовп з клена",
+	"equusdestrier:item-creature-hitchingpost-oak": "Прив’язний стовп з дуба",
+	"equusdestrier:item-creature-hitchingpost-pine": "Прив’язний стовп з сосни",
+	"equusdestrier:item-creature-hitchingpost-purpleheart": "Прив’язний стовп з палісандру",
+	"equusdestrier:item-creature-hitchingpost-redwood": "Прив’язний стовп з секвої",
+	"equusdestrier:item-creature-hitchingpost-walnut": "Прив’язний стовп з горіха",
+
+	"equusdestrier:itemdesc-creature-hitchingpost-decorative": "Лише декорація для торговців",
+	"equusdestrier:itemdesc-creature-hitchingpost-*": "Дестрієри, залишені біля цього стовпа, не блукатимуть далеко",
+
+
+	"equusdestrier:item-schematics-destrier": "Креслення дестрієра",
+	"equusdestrier:itemdesc-schematics-destrier": "Креслення, потрібні для створення спорядження для коня дестрієра. Можна купити у сідляра",
+
+	"equusdestrier:item-voucher-destrier": "Ваучер на одного дестрієра",
+	"equusdestrier:itemdesc-voucher-destrier": "Можна купити у конюшого",
+
+
+	"game:dialogue-stablemaster-horse": "У вас є коні на продаж?",
+	"game:dialogue-payhorse": "Авжеж, маю кілька добрих дестрієрів на продаж. Я готовий віддати одного за ваучер дестрієра. Але щоб їздити, вам ще потрібні сідло й вуздечка — їх продає мій колега, сідляр.",
+
+	"game:dialogue-stablemaster-anotherhorse": "У вас є ще коні на продаж?",
+	"game:dialogue-stablemaster-thatllbe50": "Звісно, для постійного клієнта я можу віддати одного за 50 шестерень.",
+
+	"game:dialogue-buyhorse-havemoney": "У мене вже є ваучер.",
+	"game:dialogue-buyhorse-nothavemoney": "У мене ще немає ваучера, чи можете ви продати мені одного?",
+
+	"game:dialogue-buyhorse-purchased": "Чудово! Ви віддаєте перевагу жеребцю чи кобилі?",
+	"game:dialogue-buyhorse-male": "Я б хотів жеребця.",
+	"game:dialogue-buyhorse-female": "Я б хотів кобилу.",
+
+	"game:dialogue-buyhorse-called": "Гаразд, ось він.",
+	"game:dialogue-buyhorse-callhorse-thanks": "Дякую, я добре про нього дбатиму!",
+
+	"game:What does a tack specialist do, {{npcname}}?": "Що робить майстер спорядження, {{npcname}}?",
+	"game:dialogue-notack": "Я привожу спорядження та амуніцію з далекого поселення, але запаси закінчилися, і я чекаю на нову поставку. Цікаво, чому вони так довго затримуються.<br><br>(Встановіть мод Equus: Tack and Equipment, щоб розблокувати інвентар цього торговця — нові товари з’являться після поповнення)",
+	// Setttings:
+
+	"setting-speedsettings": "Налаштування швидкості:",
+	"setting-tradersettings": "Налаштування торговців:",
+	"setting-title-destrier": "Дестрієр:",
+	"setting-destrier": "Дестрієр",
+
+	"setting-stamina": "Налаштування витривалості:",
+	"setting-maxstamina": "Максимальна витривалість:",
+	"setting-staminaregen": "Відновлення витривалості",
+	"setting-speed": "Швидкість руху",
+	"setting-turnspeed": "Швидкість повороту",
+	"setting-staminacost": "Витрати витривалості:",
+
+	"setting-swimback": "Плавання назад:",
+	"setting-swim": "Плавання:",
+	"setting-turnspeed-tread": "Швидкість повороту під час плавання на місці",
+	"setting-turnspeed-idle": "Швидкість повороту під час стояння",
+	"setting-disableswimback": "Вимкнути плавання назад",
+
+	"setting-walkback": "Ходьба назад",
+	"setting-walk": "Ходьба",
+	"setting-canter": "Рись",
+	"setting-trot": "Інохідь",
+	"setting-gallop": "Галоп",
+	"setting-swimstaminacost": "Під час плавання",
+	"setting-minspawndistance": "Відстань форпосту від місця появи",
+	"setting-mingroupdistance": "Відстань між групами форпостів",
+	"setting-spawnChance": "Ймовірність появи форпосту",
+
+	"comment-minspawndistance": "Мінімальна відстань від точки появи світу",
+	"comment-mingroupdistance": "Мінімальна відстань між форпостами торговців дестрієрами",
+
+	"setting-voucherprice": "Ціна ваучера дестрієра",
+	"setting-voucherstock": "Запас ваучерів дестрієра",
+	"comment-voucherprice": "Скільки шестерень коштує ваучер дестрієра",
+	"comment-voucherstock": "Скільки ваучерів має у запасі конюший (торговець)",
+
+
+	"setting-pregnancysettings": "Налаштування вагітності:",
+	"setting-pregnancydays": "Середня тривалість вагітності",
+	"setting-pregnancycooldown": "Середній час відновлення після вагітності",
+
+	"game:equusdestrier-percent-protection": "Захист: {0}%",
+	"game:equusdestrier-walkspeed": "Швидкість ходьби: {0}%",
+
+"equusdestrier:armorerror": "Не можна надягти броню, поки на коні попона!",
+"equusdestrier:blanketerror": "Не можна надягти попону, поки на коні броня!",
+
+
+
+
+
+}		
+
+
+
+

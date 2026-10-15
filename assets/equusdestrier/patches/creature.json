@@ -1,0 +1,26 @@
+﻿[
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-stablemaster-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-stablemaster-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-stablemaster-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-stablemaster-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-stablemaster-desert", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-stablemaster-desert", "file": "game:itemtypes/creature/creature.json" },
+
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-saddlemaker-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-saddlemaker-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-saddlemaker-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-saddlemaker-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-saddlemaker-desert", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-saddlemaker-desert", "file": "game:itemtypes/creature/creature.json" },
+
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-tackspecialist-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-tackspecialist-cold", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-tackspecialist-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-tackspecialist-temperate", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-female-tackspecialist-desert", "file": "game:itemtypes/creature/creature.json" },
+  { "op": "addmerge", "path": "/variantgroups/0/states/-", "value": "trader-male-tackspecialist-desert", "file": "game:itemtypes/creature/creature.json" },
+]
+
+
+
+

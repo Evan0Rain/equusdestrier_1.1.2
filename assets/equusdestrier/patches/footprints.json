@@ -1,0 +1,68 @@
+﻿[
+    {
+        "dependsOn": [ { "modid": "footprints" } ],
+        "side": "server",
+        "file": "equusdestrier:entities/destrier/destrier",
+        "op": "addmerge",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityFootprintsBehaviorSync",
+            "attributes": {
+                "texture": "horse",
+                "stepDistanceByType": {
+							"*-adult-*-destrier": 0.9,
+							"*-juvenile-*-destrier": 0.7,
+							"*-yearling-*-destrier": 0.6,
+							"*-baby-*-destrier": 0.5
+						},
+            }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "footprints" } ],
+        "side": "server",
+        "file": "equusdestrier:entities/destrier/destrier",
+        "op": "addmerge",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityFootprintsBehavior",
+            "attributes": {
+                "texture": "horse",
+                "stepDistanceByType": {
+							"*-adult-*-destrier": 0.9,
+							"*-juvenile-*-destrier": 0.7,
+							"*-yearling-*-destrier": 0.6,
+							"*-baby-*-destrier": 0.5
+						},
+            }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "footprints" } ],
+        "side": "server",
+        "file": "equusdestrier:entities/destrier/destrier-unhandled",
+        "op": "addmerge",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityFootprintsBehaviorSync",
+            "attributes": {
+                "texture": "horse",
+                "stepDistance": 0.75
+            }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "footprints" } ],
+        "side": "server",
+        "file": "equusdestrier:entities/destrier/destrier-unhandled",
+        "op": "addmerge",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityFootprintsBehavior",
+            "attributes": {
+                "texture": "horse",
+                "stepDistance": 0.75
+            }
+        }
+    },
+]

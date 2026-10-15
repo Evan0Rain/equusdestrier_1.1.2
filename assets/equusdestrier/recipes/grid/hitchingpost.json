@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "WN,WS",
+    "ingredients": {
+      "S": {
+        "type": "item","code": "schematics-destrier"
+      },
+      "N": { "type": "item", "code": "game:metalnailsandstrips-*", "name": "metal", "allowedVariants": [ "iron","copper","steel","tinbronze","bismuthbronze","blackbronze" ]},
+      "W": { "type": "block", "code": "game:supportbeam-*","name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress", "aged" ], "quantity": 2 
+    },
+    },
+    "name": "hitchingpost",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "creature-hitchingpost-{wood}",
+      "quantity": 1
+    }
+  }
+]

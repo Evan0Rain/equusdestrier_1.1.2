@@ -1,0 +1,119 @@
+[
+    {
+    "ingredientPattern": "LCL,LKL,LNL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 5
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 2
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "saddle-basic-{leather}",
+      "quantity": 1
+    }
+  },
+    {
+    "ingredientPattern": "LNL,LKL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 2
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "bridle-hold-basic",
+      "quantity": 1
+    }
+  },
+    {
+    "ingredientPattern": "LKL,LNL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 2
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "bridle-press-basic",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "LCL,LKL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 2
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain",
+        "quantity": 1
+      }
+    },
+    "name": "pillion",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "pillion",
+      "quantity": 1
+    }
+  },
+]

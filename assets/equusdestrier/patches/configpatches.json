@@ -1,0 +1,41 @@
+﻿[
+  { "enabled": false, "op": "replace", "path": "/behaviorConfigs/jaunt:rideable/rideableGaitOrder/Sea", "value": ["tread", "swim"], "file": "equusdestrier:entities/destrier/destrier.json" },
+  {"enabled":true ,"op": "replace", "path": "/selling/list", "file": "game:config/tradelists/trader-stablemaster.json",
+    "value": [
+					{
+						"code": "equusdestrier:voucher-destrier",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 16,
+							"var": 0
+						},
+						"price": {
+							"avg": 100,
+							"var": 0
+						}
+					}
+				]
+  },
+  {"enabled":true ,"op": "replace", "path": "/buying/list", "file": "game:config/tradelists/trader-stablemaster.json",
+    "value": [
+					{
+						"code": "equusdestrier:voucher-destrier",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 16,
+							"var": 0
+						},
+						"price": {
+							"avg": 80,
+							"var": 0
+						}
+					}
+				]
+  }
+]
+
+
+
+

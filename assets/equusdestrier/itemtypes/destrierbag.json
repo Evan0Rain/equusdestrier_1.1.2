@@ -1,0 +1,124 @@
+{
+	"enabled": true,
+	"code": "saddlebag",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": ["saddlepack", "sidebag", "cantlebag"]
+		},
+		{
+			"code": "color",
+			"states": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "plain", "purple", "red", "white", "yellow" ]
+		}
+	],
+	"allowedVariants": [
+		"*saddlepack-brown",
+		"*sidebag-*",
+		"*cantlebag-*"
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"texturePrefixCode": "{type}-{color}",
+			"categoryCodeByType": {
+				"*saddlepack*": "destriersaddlepack",
+				"*sidebag*": "destriersidebag",			
+				"*cantlebag*": "destriercantlebag"
+			},
+			"requiresBehindSlotsByType": {
+				"*saddlepack*": "1"
+			},
+			"attachedShapeBySlotCodeByType": {
+				"*": {
+					"*": { "base": { "base": "item/wearable/{type}" }
+				}
+			}
+		}	
+		},
+		"groundStorageTransformByType": {
+
+			"*cantlebag*": {
+			"translation": { x: 0.3, y: 0, z: -0 }
+							},
+			"*sidebag*": {
+			"translation": { x: 0.25, y: -0, z: -0 }
+							}
+			},
+			"backpack": { 
+				"quantitySlotsByType": {
+				"*saddlepack*": 48,
+				"*sidebag*": 20,			
+				"*cantlebag*": 12
+			} 
+		}
+			
+	},
+	"shape": { "base": "item/wearable/{type}-inventory" },
+	"texturesByType": {
+		"*saddlepack*": {
+		"plain": { "base": "game:item/tool/shield/leather/{color}"},
+		"tinbronze1": { "base": "game:block/metal/sheet-plain/tinbronze1"},
+		"lid": { "base": "game:block/reed/basket/normal-lid"},
+		"sidesWE": { "base": "game:block/reed/basket/normal-westeast"},
+		"plainoak": { "base": "game:block/wood/plainoak"},
+		"leather": { "base": "game:item/bag/backpack/leather"},
+		"straps": { "base": "game:item/bag/backpack/straps"},
+		"linen": { "base": "game:item/bag/linensack/linen"},
+		"top": { "base": "game:item/bag/linensack/top"}
+		},
+		"*": {
+		"metal": { "base": "game:block/metal/sheet-plain/tinbronze1"},
+		"coloredbag": { "base": "game:item/tool/shield/leather/{color}"}
+		}
+	},
+		"heldTpIdleAnimationByType": {
+			"*none*": "holdbothhands"
+		},
+		"behaviors": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+					"layoutByType": {
+				"*saddlepack*": "SingleCenter",
+				"*": "Halves"
+			} 
+				}
+			}, { "name": "HeldBag" } 
+		],
+		"maxStackSize": 4,
+		"creativeinventory": {
+			"general": [ "*" ],
+			"items": [ "*" ],
+			"equus": [ "*" ]
+		},
+		"renderAlphaTest": 0.25,
+		"guiTransformByType": {
+			"*cantlebag*": {
+				rotation: { x: 133, y: 35, z: -2 },
+				origin: { x: 0.25, y: 0.2, z: 0.45 },
+				scale: 2.2
+			},
+			"*sidebag*": {
+				rotation: { x: 147, y: -12, z: -7 },
+				origin: { x: 0.22, y: 0.1, z: 0.55 },
+				scale: 2.16
+			},
+			"*": {
+				rotation: { x: 162, y: -158, z: 1 },
+				origin: { x: 0.5, y: 0.4, z: 0.55 },
+				scale: 1.2
+			}
+		},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.2, z: 0.5299 },
+		scale: 4.58
+	},
+	tpHandTransform: {
+		translation: { x: -0.1, y: -0.2, z: 0.5 },
+		rotation: { x: 0, y: 75, z: 90 },
+		origin: { x: 0.3, y: -0.3, z: -0.1 },
+		scale: 1
+	}
+	}
+

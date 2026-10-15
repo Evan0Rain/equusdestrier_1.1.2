@@ -1,0 +1,12 @@
+[
+
+  {
+    "file": "purposefulstorage:config/restrictions/general/saddle.json",
+    "op": "addmerge", "path": "/CollectibleCodes", "side": "server",
+    "value": [
+      "equusdestrier:saddle-*"
+    ],
+    "dependsOn": [ { "modid": "purposefulstorage" } ]
+  }
+
+]

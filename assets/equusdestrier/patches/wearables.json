@@ -1,0 +1,83 @@
+  [
+    {
+    "op": "remove",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-face*/*",
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-face*/*-destrier",
+    "value": {
+      "base": "equusdestrier:item/wearable/face/{type}-destrier"
+    },
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-face*/*",
+    "value": {
+      "base": "game:item/wearable/hooved/face/{type}-elk"
+    },
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  },
+    {
+        "enabled": true,
+        "op": "remove",
+        "path": "/attributesByType/bed-hay-*/attachableToEntity/attachedShape",
+        "file": "game:blocktypes/wood/bed.json",
+        "side": "Server",
+      "dependsOn": [ { "modid": "draconis", "invert": true } ]
+    },
+    {
+        "file": "game:blocktypes/wood/bed.json",
+        "op": "addmerge",
+        "path": "/attributesByType/bed-hay-*/attachableToEntity/attachedShapeBySlotCode",
+        "value":{
+                    "lowerb*ck": {
+                        "base": "block/hay/strawbed-inventory"
+                    },
+                    "lowerback-destrier": {
+                        "base": "equusdestrier:item/wearable/strawbed"
+            }
+        },
+        "side": "server"
+    },
+     {
+    "op": "remove",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*",
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*-destrier",
+    "value": {
+      "base": "equusdestrier:item/wearable/{type}-destrier"
+    },
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*",
+    "value": {
+      "base": "game:item/wearable/hooved/{type}-elk"
+    },
+    "file": "game:itemtypes/wearable/animal/hooved.json",
+    "side": "Server"
+  }, 
+  {
+        "file": "game:blocktypes/metal/lantern.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode",
+        "value": {
+            "neck-destrier": {
+                "base": "equusdestrier:item/wearable/lantern1-destrier"
+            }
+        },
+        "side": "server"
+    }
+  ]

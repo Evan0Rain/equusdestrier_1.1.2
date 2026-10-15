@@ -1,0 +1,98 @@
+[
+  {
+    "ingredientPattern": "L_L,LKL,L_L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "blanket-cloth-{color}",
+      "quantity": 1
+    }
+  },    
+  {
+    "ingredientPattern": "L_L,LKL,L_L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["plain" ],
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "blanket-cloth-normal",
+      "quantity": 1
+    }
+  },  
+  {
+    "ingredientPattern": "L_L,LKL,L_L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:linen-*-down",
+        "name": "color",
+        "allowedVariants": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "blanket-linen-{color}",
+      "quantity": 1
+    }
+  },  
+  {
+    "ingredientPattern": "L_L,LKL,L_L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:linen-*-down",
+        "name": "color",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "blanket-linen-normal",
+      "quantity": 1
+    }
+  }
+]

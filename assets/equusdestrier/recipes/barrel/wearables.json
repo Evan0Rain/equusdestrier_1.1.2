@@ -1,0 +1,194 @@
+[
+  {
+    "code": "wearabledye1",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "saddlebag-sidebag-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-sidebag-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "wearablewoad1",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-woad",
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "saddlebag-sidebag-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-sidebag-blue",
+      "stackSize": 1
+    }
+  },
+    {
+    "code": "wearabledye1",
+    "sealHours": 4,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 4,
+        "consumeLitres": 4
+      },
+      {
+        "type": "item",
+        "code": "saddlebag-cantlebag-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-cantlebag-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "wearablewoad1",
+    "sealHours": 4,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-woad",
+        "litres": 4,
+        "consumeLitres": 4
+      },
+      {
+        "type": "item",
+        "code": "saddlebag-cantlebag-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-cantlebag-blue",
+      "stackSize": 1
+    }
+  },
+    {
+    "code": "wearabledye1",
+    "sealHours": 6,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 6,
+        "consumeLitres": 6
+      },
+      {
+        "type": "item",
+        "code": "saddle-basic-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "saddle-basic-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "wearablewoad1",
+    "sealHours": 6,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-woad",
+        "litres": 6,
+        "consumeLitres": 6
+      },
+      {
+        "type": "item",
+        "code": "saddle-basic-plain",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "saddle-basic-blue",
+      "stackSize": 1
+    }
+  },
+    {
+    "code": "wearabledye1",
+    "sealHours": 6,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 6,
+        "consumeLitres": 6
+      },
+      {
+        "type": "item",
+        "code": "blanket-{style}-normal",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "blanket-{style}-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "wearablewoad1",
+    "sealHours": 6,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-woad",
+        "litres": 6,
+        "consumeLitres": 6
+      },
+      {
+        "type": "item",
+        "code": "blanket-{style}-normal",
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "blanket-{style}-blue",
+      "stackSize": 1
+    }
+  }
+]

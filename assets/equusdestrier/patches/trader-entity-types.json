@@ -1,0 +1,200 @@
+﻿[
+  { "dependsOn": [ {"modid": "tackandequipment"}], "op": "replace", "path": "/selling/list", "file": "game:config/tradelists/trader-tackspecialist.json",
+    "value": [
+					{
+						"code": "tackandequipment:tackblanket-linen-colored-normal",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},	
+					{
+						"code": "tackandequipment:tackblanket-cloth-colored-normal",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 10,
+							"var": 0.0
+						}
+					},	
+					{
+						"code": "tackandequipment:tackbridle-hold-liberty",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-rope",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-bosal1",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-bosal2",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-english",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-war",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+					{
+						"code": "tackandequipment:tackbridle-hold-ornate",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 15,
+							"var": 0.0
+						}
+					},		
+						{
+						"code": "tackandequipment:tacksaddle-ancient-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 25,
+							"var": 0.0
+						}
+					},		
+						{
+						"code": "tackandequipment:tacksaddle-western-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 25,
+							"var": 0.0
+						}
+					},		
+						{
+						"code": "tackandequipment:tacksaddle-ornate-plain",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 25,
+							"var": 0.0
+						}
+					},		
+						{
+						"code": "tackandequipment:horseshoes-tinbronze",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 5,
+							"var": 0.0
+						}
+					},		
+						{
+						"code": "tackandequipment:horseshoes-iron",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0.75
+						},
+						"price": {
+							"avg": 6,
+							"var": 0.0
+						}
+					},		
+						
+				]
+  },
+  { "dependsOn": [ {"modid": "tackandequipment"}], "op": "replace", "path": "/components/21", "file": "game:config/dialogue/tackspecialist.json",
+    "value": {
+			code: "opentrade",
+			owner: "trader",
+			trigger: "opentrade",
+		},
+  },
+  { "dependsOn": [ {"modid": "tackandequipment"}], "op": "replace", "path": "/components/20/text/0", "file": "game:config/dialogue/tackspecialist.json",
+    "value": { value: "Got anything to trade, {{npcname}}?", jumpTo: "opentrade" },
+  }
+
+]

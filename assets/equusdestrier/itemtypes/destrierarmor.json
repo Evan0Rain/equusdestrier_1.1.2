@@ -1,0 +1,120 @@
+{
+	"code": "barding",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "plate" ]
+		},
+		{
+			"code": "metal",
+			"states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "silver", "gold" ]
+		}
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCodeByType": {
+				"*": "destrierarmor"
+			},
+			"attachedShapeBySlotCodeByType": {
+				"*": {
+					"*": { "base": "item/wearable/destrierarmor-{type}" }
+				}
+			}, 
+			"requiresBehindSlotsByType": {
+				"*": "1"
+			},
+			"disableElementsByType":{
+				"*": ["forelockmane","Mane","Mane2","Mane3","Mane4","Mane5","Mane6"]
+			}
+		},
+		"isSaddleByType": {
+			"*": false
+		},
+		"interactPassthroughByType": {
+			"*": true
+		},
+		"visibleDamageEffect": true,
+		"damageReductionByType": {
+			"*copper": 0.33,
+			"*bronze": 0.5,
+			"*silver": 0.5,
+			"*gold": 0.5,
+			"*-iron": 0.6,
+			"*meteoriciron": 0.7,
+			"*steel": 0.8
+		},
+		"speedmodifierByType": {
+			"*plate-gold": 0.7,
+			"*plate*": 0.85,
+			"*chain-gold": 0.8,
+			"*chain*": 0.90,
+			"*": 1
+		},
+		"useSoundByType": {
+            "*plate*": "game:sounds/wearable/plate*",
+            "*chain*": "game:sounds/wearable/scale*"
+          },
+		  "isMountArmor": true
+	},
+	"durabilityByType": {
+		"barding-plate-gold": 400,
+		"barding-plate-silver": 1000,
+		"barding-plate-copper": 500,
+		"barding-plate-tinbronze": 1000,
+		"barding-plate-bismuthbronze": 900,
+		"barding-plate-blackbronze": 1200,
+		"barding-plate-iron": 2200,
+		"barding-plate-meteoriciron": 2800,
+		"barding-plate-steel": 5500
+	},
+	"shapeByType": {
+		"*": { "base": "item/wearable/destrierarmor-{type}-inventory" }
+	},
+	"texturesByType": {
+		"*": {
+		"chain-iron": { "base": "game:entity/humanoid/serapharmor/chain/{metal}"},
+		"iron12": { "base": "game:block/metal/sheet-plain/{metal}1"},
+		"iron1": { "base": "game:block/metal/sheet/{metal}1"},
+		"rusty-iron2": { "base": "game:block/metal/tarnished/sheet/rusty-iron2"},
+		"iron": { "base": "game:entity/humanoid/serapharmor/chain/{metal}"}
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"behaviorsByType": {
+		"*": [
+			{"name": "GroundStorable"},
+			{"name": "jaunt:attachments"}
+		]
+	},
+	"maxStackSize": 1,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"equus": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*": {
+		"rotation": { "x": 149, "y": -49, "z": 0 },
+		"origin": { "x": 0.4, "y": 0.5, "z": 0.5 },
+		"scale": 1.18
+		}
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5299 },
+		"scale": 5.47
+	},
+	"tpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -61, "y": 24, "z": -111 },
+		"origin": { "x": 0, "y": 0.5, "z": -0 },
+		"scale": 0.9
+	}
+}

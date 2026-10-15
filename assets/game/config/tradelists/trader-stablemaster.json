@@ -1,0 +1,40 @@
+{
+			"money": { "avg": 50, "var": 20 },
+			"selling": {
+				"maxItems": 16,
+				"list": [
+					{
+						"code": "equusdestrier:voucher-destrier",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0
+						},
+						"price": {
+							"avg": 100,
+							"var": 0
+						}
+					}			
+				]
+			},
+			"buying": {
+				"maxItems": 16,
+				"list": [			
+					{
+						"code": "equusdestrier:voucher-destrier",
+						"type": "item",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 0
+						},
+						"price": {
+							"avg": 80,
+							"var": 0
+						}
+					}
+
+				]
+			}
+}

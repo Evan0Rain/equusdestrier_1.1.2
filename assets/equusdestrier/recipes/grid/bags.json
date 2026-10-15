@@ -1,0 +1,58 @@
+[
+  {
+    "ingredientPattern": "LLL,NKN,LLL",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 4
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 2
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-sidebag-{leather}",
+      "quantity": 1
+    }
+  },
+    {
+    "ingredientPattern": "LLL,NKN",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "name": "leather",
+        "quantity": 6
+      },
+      "K": {
+        "type": "item",
+        "code": "schematics-destrier"
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      }
+    },
+    "name": "mainbag",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-cantlebag-{leather}",
+      "quantity": 1
+    }
+  }
+]

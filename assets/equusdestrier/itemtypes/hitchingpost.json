@@ -1,0 +1,47 @@
+{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 64,
+		"variantgroups": [
+		{"code": "main","states": [ "hitchingpost" ]},
+		{ "code": "wood","states": ["aged"], "loadFromProperties": "game:block/wood"}
+	],
+	"shape": { "base": "entity/hitchingpost" },
+		"texturesByType": {
+	"*": {
+		"iron1": { "base": "game:block/metal/riveted/iron1"},
+		"steel1": { "base": "game:block/metal/sheet/steel1"},
+		"halite1": { "base": "game:block/stone/rock/halite1"},
+		"generic": { "base": "game:block/wood/debarked/{wood}"}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "equus": ["*"]},
+	"materialDensity": 600,
+	"guiTransformByType": {	
+		"*": {
+			"rotate": false,
+			"rotation": { "x": -22, "y": -26, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.4, "z": 0.5 },
+			"scale": 2.26
+		}			
+	},
+	
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.5, "y": -2.3, "z": -1.3 },
+			"rotation": { "x": -180, "y": -15, "z": -106 },
+			"origin": { "x": 0.5, "y": 1.7, "z": 2.1 },
+			"scale": 0.68
+		}		
+	}
+}
+	
+
+	
+	
+	
+	
+
+
+
+

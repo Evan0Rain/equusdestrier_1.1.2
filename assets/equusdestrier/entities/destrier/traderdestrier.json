@@ -1,0 +1,304 @@
+{
+	"code": "traderhorse",
+	"class": "EntityAgent",
+	"tags": ["animal", "tamed", "habitat-land"],
+	"fallDamageMultiplierByType": { "*-baby-*" :0.5,"*-destrier" :0.5},
+	"variantgroups": [
+		{ "code": "age","states": [ "adult","baby"]},
+		{ "code": "gender","states": [ "female","male"]},
+		{ "code": "type","states": [ "destrier"]}
+	],
+	"hitBoxSizeByType": {
+		"*-adult-*-destrier": { "x": 1.4, "y": 1.9,"z": 3.0 },"*-baby-*-destrier": { "x": 1.1, "y": 1.1 }
+	},
+	"deadhitBoxSizeByType": {
+		"*-adult-*-destrier": { "x": 2.0, "y": 1.5 },"*-baby-*-destrier": { "x": 0.99, "y": 0.8 }
+	},
+	"eyeHeightByType": {
+		"*-adult-*-destrier": 1.7,"*-baby-*-destrier": 0.9
+	},
+	"attributes": {
+		"tamedByType": { "*": false },
+		"killedByInfoText": "deadcreature-killed",
+		"trappableByType": {
+			"*-adult-*": {
+				"small": { "trapChance": 0.0,	"trapDestroyChance": 0.6 },
+				"large": { "trapChance": 0.0,	"trapDestroyChance": 0.15 }
+			},
+			"*-baby-*": {
+				"small": { "trapChance": 0.0,	"trapDestroyChance": 0.2 },
+				"large": { "trapChance": 0.4,	"trapDestroyChance": 0 }
+			}
+		},
+		"minGenerationToAllowHealing": 0,
+		"creatureDiet": {
+			"foodCategories": ["Fruit","Grain","Vegetable"],
+			"foodTags": ["fruitmash","grass","nibblecrop"]
+		},
+		"handbook": {
+			"groupcode": "creaturegroup-horse-{type}"
+		}		
+	},
+	"behaviorConfigs": {
+		"controlledphysics": { 
+			"stepHeight": 3.1251,
+			"stepUpSpeed": 0.25
+		},
+		"floatupwhenstuck": { "onlyWhenDead": true },
+		"emotionstates": {
+				"states": [
+					{ "code": "fleeondamage","duration": 60,
+						"chanceByType": {
+							"*-adult-*": 1,
+							"*-baby-*": 1
+						},
+						"slot": 2,"priority": 4,"accumType": "max","whenHealthRelBelow": 0.3},
+					{ "code": "aggressiveondamage","duration": 60,
+						"chanceByType": {
+							"*-adult-*": 0.1,
+							"*-baby-*": 0.0
+						},
+						"slot": 2,"priority": 3,"accumType": "noaccum"},
+					{ "code": "fleeondamage","duration": 60,"slot": 2,"chanceByType": { "*-adult-*": 0.7,"*-baby-*": 1},"priority": 1,"accumType": "max","whenHealthRelBelow": 0.5},
+					{ "code": "fleeondamage","duration": 30,"slot": 2,"chanceByType": { "*-adult-*": 0.5,"*-baby-*": 1},"priority": 0.5,"accumType": "max","whenHealthRelBelow": 1, "maxGeneration": 2},
+					{ "code": "alarmherdondamage","chance": 1,"slot": 1,"priority": 1.5,"accumType": "max"},
+					{ "code": "saturated","duration": 1200,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum"}
+				]
+			},
+		"taskai": {
+				"aiCreatureType": "LandCreature",
+				"aitasks": [
+					{
+						"code": "meleeattack",
+						"animation": "Attack",
+						"enabledByType": {
+							"*-baby-*": false,
+							"*": true},
+						"entityCodesByType": {
+							"*-adult-*": ["player","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*", "caninae-canina-adult-*","felinae-adult-*","machairodontinae-adult-*", "pantherinae-neofelis-adult-*", "pantherinae-panthera-adult-*","thylacoleonidae-adult-*"]},
+						"priority": 3,
+						"slot": 1,
+						"damageByType": {
+							"*-adult-*-destrier":7
+						},
+						"knockbackStrengthByType": { "*":2},
+						"damageTierByType": { "*":3},
+						"mincooldown": 500,
+						"maxcooldown": 1000,
+						"attackDurationMs": 500,
+						"damagePlayerAtMs": 250,
+						"animationSpeed": 1,
+						"whenInEmotionState": "aggressiveondamage"
+					},
+					{
+						"code": "fleeentity",
+						"whenInEmotionState": "fleeondamage",
+						"entityCodes": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","moose-*","shiver-*","wolf-*", "caninae-canina-adult-*","felinae-adult-*","machairodontinae-adult-*", "pantherinae-neofelis-adult-*", "pantherinae-panthera-adult-*","thylacoleonidae-adult-*"],
+						"priority": 1.8,
+						"movespeed": 0.05,
+						"seekingRange": 12,
+						"animation": "Gallop",
+						"animationSpeed": 2
+					},
+					{
+						"code": "getoutofwater",
+						"animation": "Swim",
+						"priority": 1.4,
+						"movespeedByType": {
+							"*-adult-*-destrier": 0.015,"*-baby-*-destrier": 0.010
+						},
+						"animationSpeed": 1.0
+					},
+					{
+						"code": "stayclosetoentity",
+						"animation": "Trot",
+						"enabledByType": {
+							"*-adult-male-*": false,
+							"*": true
+						},
+						"priority": 1.81,
+						"entityCodeByType": {
+							"*-baby-*": "*horse-adult-female-{type}"},
+						"movespeedByType": {
+							"*-adult-*-destrier": 0.0285,"*-baby-*-destrier": 0.02
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 2.7,
+							"*": 2.2
+						},
+						"maxDistanceByType": { "*-baby-*": 6},
+						"searchRange": 45
+					},
+					{
+						"code": "idle",
+						"animation": "nap",
+						"priority": 1.2,
+						"minduration": 20000,
+						"maxduration": 240000,
+						"mincooldown": 6000,
+						"maxcooldown": 12000,
+						"priorityForCancel": 1.28,
+						"chanceByType": { "*-adult-*":0.02,"*":0.2},
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female"  ],
+						"stopRange": 20,
+						"stopOnHurt": true,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "idle",
+						"animation": "Idle",
+						"priority": 1.2,
+						"minduration": 2000,
+						"maxduration": 24000,
+						"mincooldown": 6000,
+						"maxcooldown": 12000,
+						"priorityForCancel": 1.28,
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female"  ],
+						"stopRange": 20,
+						"stopOnHurt": true,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "idle",
+						"animation": "nap",
+						"priority": 1.6,
+						"minduration": 20000,
+						"maxduration": 80000,
+						"mincooldown": 20000,
+						"maxcooldown": 40000,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage",
+						"duringDayTimeFramesByType": {
+							"*":[{ "fromHour": 20,"toHour": 22},{ "fromHour": 5,"toHour": 6}]},
+						"stopOnNearbyEntityCodes": [ "player" ],
+						"stopRange": 1,
+						"stopOnHurt": true
+					},
+					{
+						"code": "idle",
+						"animation": "Sleep",
+						"priority": 1.6,
+						"minduration": 20000,
+						"maxduration": 80000,
+						"mincooldown": 20000,
+						"maxcooldown": 40000,
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage",
+						"duringDayTimeFramesByType": {
+							"*":[{ "fromHour": 22,"toHour": 24},{ "fromHour": 0,"toHour": 5}]},
+						"stopOnNearbyEntityCodes": [ "player" ],
+						"stopRange": 1,
+						"stopOnHurt": true
+					},
+					{
+						"code": "idle",
+						"animation": "Eat",
+						"priority": 1.2,
+						"priorityForCancel": 1.35,
+						"minduration": 3000,
+						"maxduration": 24000,
+						"mincooldown": 9000,
+						"maxcooldown": 20000,
+						"animationSpeed": 1,
+						"soundByType": { "*":"game:creature/animal-eat*"},
+						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					}
+				]
+			}
+	},
+	"drops": [],
+	"client": {
+		"renderer": "Shape",
+		"shapeByType": {
+			"*adult-female-destrier": 
+					{ "base": "entity/destrier/traderhorse", "overlays": []},
+			"*adult-male-destrier": 
+					{ "base": "entity/destrier/traderhorse2", "overlays": [{ "base": "item/wearable/destriersaddle" }, { "base": "item/wearable/destrierblanket" }]},
+			"*baby-*-destrier": 
+					{ "base": "entity/destrier/horsebaby" }
+		},
+		"textureByType": {
+			"*baby-*-destrier": { "base": "entity/destrier/destrier-bay", "overlays": [ ], "alternates": [
+				{ "base": "entity/destrier/destrier-black"},
+				{ "base": "entity/destrier/destrier-chestnut"},
+				{ "base": "entity/destrier/destrier-buckskin"},
+				{ "base": "entity/destrier/destrier-black"},
+				{ "base": "entity/destrier/destrier-palomino"},
+				{ "base": "entity/destrier/destrier-bay"},
+				{ "base": "entity/destrier/destrier-black"},
+				{ "base": "entity/destrier/destrier-chestnut"},
+				{ "base": "entity/destrier/destrier-darkbay"},
+				{ "base": "entity/destrier/destrier-silverbay"},
+				{ "base": "entity/destrier/destrier-silverblack"},
+				{ "base": "entity/destrier/destrier-chestnut"},
+				{ "base": "entity/destrier/destrier-silverbuckskin"},
+				{ "base": "entity/destrier/destrier-doublecream"},
+				{ "base": "entity/destrier/destrier-darkbay"}
+			 ]},
+			"*-adult-*-destrier": { "base": "entity/destrier/destrier-bay", "overlays": [ ], "alternates": [
+				{ "base": "entity/destrier/destrier-black"},
+				{ "base": "entity/destrier/destrier-chestnut"},
+				{ "base": "entity/destrier/destrier-buckskin"},
+				{ "base": "entity/destrier/destrier-black"},
+				{ "base": "entity/destrier/destrier-palomino"},
+				{ "base": "entity/destrier/destrier-lightdapplegrey"},
+				{ "base": "entity/destrier/destrier-dapplegrey"},
+				{ "base": "entity/destrier/destrier-rosegrey"},
+				{ "base": "entity/destrier/destrier-lightgrey"},
+				{ "base": "entity/destrier/destrier-silverbay"},
+				{ "base": "entity/destrier/destrier-silverblack"},
+				{ "base": "entity/destrier/destrier-chestnut"},
+				{ "base": "entity/destrier/destrier-silverbuckskin"},
+				{ "base": "entity/destrier/destrier-doublecream"},
+				{ "base": "entity/destrier/destrier-darkbay"}
+			 ]}
+		},
+		"PitchStep": false,
+		"sizeByType": {
+			"*-adult-female-destrier": 0.98,"*-adult-male-destrier": 1.02,"*-baby-*-destrier": 1
+		},
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics"},
+			{ "code": "floatupwhenstuck","onlyWhenDead": true},
+			{ "code": "interpolateposition" },
+			{ "code": "ropetieable" }
+		],
+		"animations": [
+			{ "code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
+			{ "code": "canter","animation": "canter", "weight": 100, "supressDefaultAnimation": true,"blendMode": "Average"},
+			{ "code": "dead","animation": "dead","weight": 10,"blendMode": "Average"},
+			{ "code": "die","animation": "Die","animationSpeed": 0.75,"weight": 10,"blendMode": "Average","triggeredBy": { "onControls": [ "dead" ] }},
+			{ "code": "eat","animation": "Eat","easeOutSpeed": 10,"blendMode": "Average"},
+			{ "code": "gallop","animation": "Gallop","easeInSpeed": 4,"easeOutSpeed": 4,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{ "code": "hurt","animation": "Hurt","animationSpeed": 1,"weight": 10,"blendMode": "AddAverage"},
+			{ "code": "idle","animation": "Idle","animationSpeed": 1,"blendMode": "AddAverage","easeOutSpeed": 4,"triggeredBy": { "defaultAnim": true }},
+			{ "code": "jump", "animation": "Jump", "animationSpeed": 1.4, "weight": 100, "blendMode": "AddAverage", "easeOutSpeed": 40 },
+			{ "code": "nap","animation": "nap","easeInSpeed": 4,"easeOutSpeed": 4,"blendMode": "Average"},
+			{ "code": "sleep","animation": "Sleep","easeInSpeed": 4,"easeOutSpeed": 4,"weight": 5,"blendMode": "Average"},
+			{ "code": "swim","animation": "Swim","easeInSpeed": 4,"easeOutSpeed": 4,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{ "code": "walk","animation": "Walk", "weight": 10, "easeInSpeed": 4,"easeOutSpeed": 4,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{ "code": "trot","animation": "Trot", "weight": 10, "easeInSpeed": 4,"easeOutSpeed": 4,"supressDefaultAnimation": true,"blendMode": "Average"},
+			{ "code": "turn-left", "animation": "turn-left", "easeInSpeed": 3, "easeOutSpeed": 10, "weight": 0.01, "blendMode": "Average", "elementWeight": {"BodyOrigin": 80, "Head": 80, "Neck3": 80, "Neck4": 80, "LEar": 40}, "elementBlendMode": { "BodyOrigin": "AddAverage","Head": "AddAverage","Neck3": "AddAverage", "Neck4": "AddAverage", "LEar": "AddAverage"}},
+			{ "code": "turn-right", "animation": "turn-right", "easeInSpeed": 3, "easeOutSpeed": 10, "weight": 0.01, "blendMode": "Average", "elementWeight": { "BodyOrigin": 80,"Head": 80,"Neck3": 80, "Neck4": 80, "REar": 40}, "elementBlendMode": { "BodyOrigin": "AddAverage","Head": "AddAverage","Neck3": "AddAverage", "Neck4": "AddAverage", "REar":"AddAverage"}},
+			{ "code": "wounded-idle", "animation": "wounded-idle", "easeInSpeed": 3, "weight": 10, "blendMode":"Average" }
+		]
+	},
+	"server": {
+		"attributes": {
+			"pathfinder": {
+				"minTurnAnglePerSec": 350,
+				"maxTurnAnglePerSec": 650
+			}
+		},
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics"},
+			{ "code": "taskai"},
+			{ "code":"emotionstates"},
+			{ "code": "health"},
+			{ "code": "deaddecay"},
+			{ "code": "floatupwhenstuck","onlyWhenDead": true},
+			{ "code": "pettable", "minGeneration": 1},
+			{ "code": "entitystatetags" }
+		]
+	}
+}

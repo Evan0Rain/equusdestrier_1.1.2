@@ -1,0 +1,122 @@
+[
+  {
+    "code": "mainbaguncolor1",
+    "ingredientPattern": "TK",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "saddlebag-sidebag-*",
+        "name": "color"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic*",
+        "IsTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-sidebag-plain"
+    }
+  },
+    {
+    "code": "mainbaguncolor2",
+    "ingredientPattern": "TK",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "saddlebag-cantlebag-*",
+        "name": "color"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic*",
+        "IsTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "saddlebag-cantlebag-plain"
+    }
+  },
+    {
+    "code": "mainbaguncolor3",
+    "ingredientPattern": "TK",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "saddle-basic-*",
+        "name": "color"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic*",
+        "IsTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "saddle-basic-plain"
+    }
+  },
+    {
+    "code": "mainbaguncolor4",
+    "ingredientPattern": "TK",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "blanket-cloth-*",
+        "name": "color"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic*",
+        "IsTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "blanket-cloth-normal"
+    }
+  },
+    {
+    "code": "mainbaguncolor5",
+    "ingredientPattern": "TK",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "blanket-linen-*",
+        "name": "color"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic*",
+        "IsTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "blanket-linen-normal"
+    }
+  }
+]

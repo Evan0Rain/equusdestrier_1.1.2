@@ -1,0 +1,128 @@
+﻿[
+  {
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/structures/-",
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "value": {
+      "code": "horse-hot",
+      "group": "destriertrader",
+      "minSpawnDistance": 2000,
+      "minGroupDistance": 5000,
+      "name": "Horse Home",
+      "chance": 1.5,
+      "schematics": [ "equusdestrier:overground/tradeoutposts/destrierhot" ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimeter",
+      "allowUseEveryone": false,
+      "allowTraverseEveryone": true,
+      "replacewithblocklayers": [ "soil-low-normal", "soil-low-sparse", "soil-low-none","soil-medium-normal","soil-medium-sparse","soil-medium-none" ],
+      "postPass": false,
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "placement": "surface",
+      "offsetY": -2,
+      "minTemp": 10,
+			"maxRain": 0.4,
+			"rockTypeRemapGroup": "standard"
+    }
+  },
+  {
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/structures/-",
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "value": {
+      "code": "horse-cold",
+      "group": "destriertrader",
+      "minSpawnDistance": 2000,
+      "minGroupDistance": 5000,
+      "name": "Horse Home",
+      "chance": 1.5,
+      "schematics": [ "equusdestrier:overground/tradeoutposts/destriercold" ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimeter",
+      "allowUseEveryone": false,
+      "allowTraverseEveryone": true,
+      "replacewithblocklayers": [ "soil-low-normal", "soil-low-sparse", "soil-low-none","soil-medium-normal","soil-medium-sparse","soil-medium-none" ],
+      "postPass": false,
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "placement": "surface",
+      "offsetY": -2,
+			"minRain": 0.15,			
+      "minTemp": -15,
+			"maxTemp": -3,
+			"rockTypeRemapGroup": "standard"
+    }
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/structures/-",
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "value": {
+      "code": "horse-forest",
+      "group": "destriertrader",
+      "minSpawnDistance": 2000,
+      "minGroupDistance": 5000,
+      "name": "Horse Home",
+      "chance": 1.5,
+      "schematics": [ "equusdestrier:overground/tradeoutposts/destrierplains" ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimeter",
+      "allowUseEveryone": false,
+      "allowTraverseEveryone": true,
+      "replacewithblocklayers": [ "soil-low-normal", "soil-low-sparse", "soil-low-none","soil-medium-normal","soil-medium-sparse","soil-medium-none" ],
+      "minTemp": -5,
+			"minForest": 0.5,
+      "postPass": false,
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "placement": "surface",
+			"rockTypeRemapGroup": "standard"
+    }
+  },
+  {
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/structures/-",
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "value": {
+      "code": "horse-plains",
+      "group": "destriertrader",
+      "minSpawnDistance": 2000,
+      "minGroupDistance": 5000,
+      "name": "Horse Home",
+      "chance": 1.5,
+      "schematics": [ "equusdestrier:overground/tradeoutposts/destrierplains" ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimeter",
+      "allowUseEveryone": false,
+      "allowTraverseEveryone": true,
+      "replacewithblocklayers": [ "soil-low-normal", "soil-low-sparse", "soil-low-none","soil-medium-normal","soil-medium-sparse","soil-medium-none" ],
+      "postPass": false,
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "placement": "surface",
+      "offsetY": -1,
+      "minTemp": -5,
+      "maxForest": 0.7,
+			"rockTypeRemapGroup": "standard"
+    }
+  }
+]
+
+
+
+
+
+

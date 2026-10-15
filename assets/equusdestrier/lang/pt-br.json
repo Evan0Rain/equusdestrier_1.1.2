@@ -1,0 +1,246 @@
+{
+
+	"game:creaturegroup-horse-destrier": "Corcel",
+	"game:tabname-equus": "Equus: Cavalos",
+
+	"equusdestrier:item-creature-horse-juvenile-female-destrier": "Potranca juvenil Corcel",
+	"equusdestrier:item-creature-horse-juvenile-male-destrier": "Potro juvenil Corcel",
+	"equusdestrier:item-creature-horse-yearling-female-destrier": "Potranca de um ano Corcel",
+	"equusdestrier:item-creature-horse-yearling-male-destrier": "Potro de um ano Corcel",
+	"equusdestrier:item-creature-horse-adult-female-destrier": "Égua Corcel",
+	"equusdestrier:item-creature-horse-adult-male-destrier": "Garanhão Corcel",
+	"equusdestrier:item-creature-horse-baby-female-destrier": "Potranca Corcel",
+	"equusdestrier:item-creature-horse-baby-male-destrier": "Potro Corcel",
+
+
+	"equusdestrier:item-creature-unhandledhorse-adult-female-destrier": "Égua Corcel indomada",
+	"equusdestrier:item-creature-unhandledhorse-adult-male-destrier": "Garanhão Corcel indomado",
+
+	"equusdestrier:itemdesc-creature-unhandledhorse-adult-*-destrier": "Um Corcel indomado. <br> Este cavalo não pode ser encontrado na natureza, apenas comprado a um mestre de estábulo ou procriado",
+	"equusdestrier:itemdesc-creature-horse-adult-*-destrier": "Um Corcel treinado. <br> Este cavalo não pode ser encontrado na natureza, apenas comprado a um mestre de estábulo ou procriado",
+	"equusdestrier:itemdesc-creature-horse-juvenile-*-destrier": "Este cavalo não pode ser encontrado na natureza, apenas procriado a partir de corcéis comprados",
+	"equusdestrier:itemdesc-creature-horse-yearling-*-destrier": "Este cavalo não pode ser encontrado na natureza, apenas procriado a partir de corcéis comprados",
+	"equusdestrier:itemdesc-creature-horse-baby-*-destrier": "Este cavalo não pode ser encontrado na natureza, apenas procriado a partir de corcéis comprados",
+
+	"equusdestrier:item-dead-creature-*horse-adult-female-destrier": "Égua Corcel (Morta)",
+	"equusdestrier:item-dead-creature-*horse-adult-male-destrier": "Garanhão Corcel (Morto)",
+	"equusdestrier:item-dead-creature-horse-baby-female-destrier": "Potranca Corcel (Morta)",
+	"equusdestrier:item-dead-creature-horse-baby-male-destrier": "Potro Corcel (Morto)",	
+	"equusdestrier:item-dead-creature-horse-juvenile-female-destrier": "Potranca juvenil Corcel (Morta)",
+	"equusdestrier:item-dead-creature-horse-juvenile-male-destrier": "Potro juvenil Corcel (Morto)",
+	"equusdestrier:item-dead-creature-horse-yearling-female-destrier": "Potranca de um ano Corcel (Morta)",
+	"equusdestrier:item-dead-creature-horse-yearling-male-destrier": "Potro de um ano Corcel (Morto)",
+
+	"game:prefixandcreature-horseadultfemaledestrier": "uma égua corcel",
+	"game:prefixandcreature-horseadultmaledestrier": "um garanhão corcel",
+	"game:prefixandcreature-horsebabyfemaledestrier": "uma potranca corcel",
+	"game:prefixandcreature-horsebabymaledestrier": "um potro corcel",
+
+
+	"equusdestrier:item-creature-traderhorse-adult-female-destrier": "Égua Corcel (Mercador)",
+	"equusdestrier:item-creature-traderhorse-adult-male-destrier": "Garanhão Corcel (Mercador)",
+	"equusdestrier:item-creature-traderhorse-baby-female-destrier": "Potranca Corcel (Mercador)",
+	"equusdestrier:item-creature-traderhorse-baby-male-destrier": "Potro Corcel (Mercador)",
+
+	"game:item-creature-trader-*-saddlemaker-cold": "Seleiro (frio)",
+	"game:item-creature-trader-*-saddlemaker-desert": "Seleiro (deserto)",
+	"game:item-creature-trader-*-saddlemaker-temperate": "Seleiro (temperado)",
+	"game:item-creature-trader-*-stablemaster-cold": "Mestre de estábulo (frio)",
+	"game:item-creature-trader-*-stablemaster-desert": "Mestre de estábulo (deserto)",
+	"game:item-creature-trader-*-stablemaster-temperate": "Mestre de estábulo (temperado)",
+	"game:item-creature-trader-*-tackspecialist-cold": "Especialista em arreios (frio)",
+	"game:item-creature-trader-*-tackspecialist-desert": "Especialista em arreios (deserto)",
+	"game:item-creature-trader-*-tackspecialist-temperate": "Especialista em arreios (temperado)",
+
+	"game:tradingwindow-trader-*-saddlemaker-*": "Bens locais - {0}, o seleiro",
+	"game:tradingwindow-trader-*-stablemaster-*": "Bens locais - {0}, o mestre de estábulo",
+	"game:tradingwindow-trader-*-tackspecialist-*": "Bens locais - {0}, o especialista em arreios",
+
+	"equusdestrier:item-barding-plate-bismuthbronze": "Barda de placas (bronze de bismuto)",
+	"equusdestrier:item-barding-plate-blackbronze": "Barda de placas (bronze negro)",
+	"equusdestrier:item-barding-plate-copper": "Barda de placas (cobre)",
+	"equusdestrier:item-barding-plate-iron": "Barda de placas (ferro)",
+	"equusdestrier:item-barding-plate-steel": "Barda de placas (aço)",
+	"equusdestrier:item-barding-plate-tinbronze": "Barda de placas (bronze de estanho)",
+	"equusdestrier:item-barding-plate-meteoriciron": "Barda de placas (ferro meteórico)",
+	"equusdestrier:item-barding-plate-gold": "Barda de placas (ouro)",
+	"equusdestrier:item-barding-plate-silver": "Barda de placas (prata)",
+
+	"equusdestrier:item-blanket-cloth-black": "Manta de tecido Corcel (preto)",
+	"equusdestrier:item-blanket-cloth-blue": "Manta de tecido Corcel (azul)",
+	"equusdestrier:item-blanket-cloth-brown": "Manta de tecido Corcel (castanho)",
+	"equusdestrier:item-blanket-cloth-gray": "Manta de tecido Corcel (cinza)",
+	"equusdestrier:item-blanket-cloth-green": "Manta de tecido Corcel (verde)",
+	"equusdestrier:item-blanket-cloth-normal": "Manta de tecido Corcel (normal)",
+	"equusdestrier:item-blanket-cloth-orange": "Manta de tecido Corcel (laranja)",
+	"equusdestrier:item-blanket-cloth-pink": "Manta de tecido Corcel (rosa)",
+	"equusdestrier:item-blanket-cloth-purple": "Manta de tecido Corcel (roxo)",
+	"equusdestrier:item-blanket-cloth-red": "Manta de tecido Corcel (vermelho)",
+	"equusdestrier:item-blanket-cloth-white": "Manta de tecido Corcel (branco)",
+	"equusdestrier:item-blanket-cloth-yellow": "Manta de tecido Corcel (amarelo)",
+	"equusdestrier:item-blanket-linen-black": "Manta de linho Corcel (preto)",
+	"equusdestrier:item-blanket-linen-blue": "Manta de linho Corcel (azul)",
+	"equusdestrier:item-blanket-linen-brown": "Manta de linho Corcel (castanho)",
+	"equusdestrier:item-blanket-linen-gray": "Manta de linho Corcel (cinza)",
+	"equusdestrier:item-blanket-linen-green": "Manta de linho Corcel (verde)",
+	"equusdestrier:item-blanket-linen-normal": "Manta de linho Corcel (normal)",
+	"equusdestrier:item-blanket-linen-orange": "Manta de linho Corcel (laranja)",
+	"equusdestrier:item-blanket-linen-pink": "Manta de linho Corcel (rosa)",
+	"equusdestrier:item-blanket-linen-purple": "Manta de linho Corcel (roxo)",
+	"equusdestrier:item-blanket-linen-red": "Manta de linho Corcel (vermelho)",
+	"equusdestrier:item-blanket-linen-white": "Manta de linho Corcel (branco)",
+	"equusdestrier:item-blanket-linen-yellow": "Manta de linho Corcel (amarelo)",
+
+	"equusdestrier:item-bridle-hold-basic": "Rédea Corcel com bridão",
+	"equusdestrier:item-bridle-press-basic": "Rédea Corcel com freio",
+	"equusdestrier:itemdesc-bridle-hold-*": "Útil para viagens precisas de curta distância",
+	"equusdestrier:itemdesc-bridle-press-*": "Útil para viagens de longa distância",
+
+	"equusdestrier:item-pillion": "Assento de garupa Corcel",
+
+	"equusdestrier:item-saddle-basic-black": "Sela Corcel (preto)",
+	"equusdestrier:item-saddle-basic-blue": "Sela Corcel (azul)",
+	"equusdestrier:item-saddle-basic-brown": "Sela Corcel (castanho)",
+	"equusdestrier:item-saddle-basic-gray": "Sela Corcel (cinza)",
+	"equusdestrier:item-saddle-basic-green": "Sela Corcel (verde)",
+	"equusdestrier:item-saddle-basic-orange": "Sela Corcel (laranja)",
+	"equusdestrier:item-saddle-basic-pink": "Sela Corcel (rosa)",
+	"equusdestrier:item-saddle-basic-plain": "Sela Corcel (simples)",
+	"equusdestrier:item-saddle-basic-purple": "Sela Corcel (roxo)",
+	"equusdestrier:item-saddle-basic-red": "Sela Corcel (vermelho)",
+	"equusdestrier:item-saddle-basic-white": "Sela Corcel (branco)",
+	"equusdestrier:item-saddle-basic-yellow": "Sela Corcel (amarelo)",
+
+	"equusdestrier:item-saddle-bismuthbronze-none-plain": "Armadura de sela de bronze de bismuto (simples)",
+	"equusdestrier:item-saddle-copper-none-plain": "Armadura de sela de cobre (simples)",
+	"equusdestrier:item-saddle-iron-none-plain": "Armadura de sela de ferro (simples)",
+	"equusdestrier:item-saddle-steel-none-plain": "Armadura de sela de aço (simples)",
+	"equusdestrier:item-saddle-tinbronze-none-plain": "Armadura de sela de bronze de estanho (simples)",
+
+	"equusdestrier:item-saddlebag-cantlebag-black": "Alforje traseiro Corcel (preto)",
+	"equusdestrier:item-saddlebag-cantlebag-blue": "Alforje traseiro Corcel (azul)",
+	"equusdestrier:item-saddlebag-cantlebag-brown": "Alforje traseiro Corcel (castanho)",
+	"equusdestrier:item-saddlebag-cantlebag-gray": "Alforje traseiro Corcel (cinza)",
+	"equusdestrier:item-saddlebag-cantlebag-green": "Alforje traseiro Corcel (verde)",
+	"equusdestrier:item-saddlebag-cantlebag-orange": "Alforje traseiro Corcel (laranja)",
+	"equusdestrier:item-saddlebag-cantlebag-pink": "Alforje traseiro Corcel (rosa)",
+	"equusdestrier:item-saddlebag-cantlebag-plain": "Alforje traseiro Corcel (simples)",
+	"equusdestrier:item-saddlebag-cantlebag-purple": "Alforje traseiro Corcel (roxo)",
+	"equusdestrier:item-saddlebag-cantlebag-red": "Alforje traseiro Corcel (vermelho)",
+	"equusdestrier:item-saddlebag-cantlebag-white": "Alforje traseiro Corcel (branco)",
+	"equusdestrier:item-saddlebag-cantlebag-yellow": "Alforje traseiro Corcel (amarelo)",
+	"equusdestrier:item-saddlebag-saddlepack-brown": "Alforje de sela Corcel (castanho)",
+
+	"equusdestrier:item-saddlebag-sidebag-black": "Alforje lateral Corcel (preto)",
+	"equusdestrier:item-saddlebag-sidebag-blue": "Alforje lateral Corcel (azul)",
+	"equusdestrier:item-saddlebag-sidebag-brown": "Alforje lateral Corcel (castanho)",
+	"equusdestrier:item-saddlebag-sidebag-gray": "Alforje lateral Corcel (cinza)",
+	"equusdestrier:item-saddlebag-sidebag-green": "Alforje lateral Corcel (verde)",
+	"equusdestrier:item-saddlebag-sidebag-orange": "Alforje lateral Corcel (laranja)",
+	"equusdestrier:item-saddlebag-sidebag-pink": "Alforje lateral Corcel (rosa)",
+	"equusdestrier:item-saddlebag-sidebag-plain": "Alforje lateral Corcel (simples)",
+	"equusdestrier:item-saddlebag-sidebag-purple": "Alforje lateral Corcel (roxo)",
+	"equusdestrier:item-saddlebag-sidebag-red": "Alforje lateral Corcel (vermelho)",
+	"equusdestrier:item-saddlebag-sidebag-white": "Alforje lateral Corcel (branco)",
+	"equusdestrier:item-saddlebag-sidebag-yellow": "Alforje lateral Corcel (amarelo)",
+
+
+	"equusdestrier:item-creature-hitchingpost-decorative": "Poste de amarração decorativo",
+	"equusdestrier:item-creature-hitchingpost-acacia": "Poste de amarração (acácia)",
+	"equusdestrier:item-creature-hitchingpost-aged": "Poste de amarração (madeira envelhecida)",
+	"equusdestrier:item-creature-hitchingpost-baldcypress": "Poste de amarração (cipreste-calvo)",
+	"equusdestrier:item-creature-hitchingpost-birch": "Poste de amarração (bétula)",
+	"equusdestrier:item-creature-hitchingpost-ebony": "Poste de amarração (ébano)",
+	"equusdestrier:item-creature-hitchingpost-kapok": "Poste de amarração (sumaúma)",
+	"equusdestrier:item-creature-hitchingpost-larch": "Poste de amarração (alerce)",
+	"equusdestrier:item-creature-hitchingpost-maple": "Poste de amarração (bordo)",
+	"equusdestrier:item-creature-hitchingpost-oak": "Poste de amarração (carvalho)",
+	"equusdestrier:item-creature-hitchingpost-pine": "Poste de amarração (pinheiro)",
+	"equusdestrier:item-creature-hitchingpost-purpleheart": "Poste de amarração (amaranto)",
+	"equusdestrier:item-creature-hitchingpost-redwood": "Poste de amarração (sequoia)",
+	"equusdestrier:item-creature-hitchingpost-walnut": "Poste de amarração (nogueira)",
+	"equusdestrier:itemdesc-creature-hitchingpost-decorative": "apenas um adereço para mercadores",
+	"equusdestrier:itemdesc-creature-hitchingpost-*": "Corcéis deixados perto deste poste não se afastarão muito dele",
+	
+
+	"equusdestrier:item-schematics-destrier": "Esquemas Corcel",
+	"equusdestrier:itemdesc-schematics-destrier": "Esquemas necessários para criar equipamento para um cavalo destrier. Podem ser comprados a um seleiro",
+	"equusdestrier:item-voucher-destrier": "Vale para um destrier",
+	"equusdestrier:itemdesc-voucher-destrier": "Pode ser comprado a um mestre de estábulo",
+
+	"game:dialogue-stablemaster-horse": "Tens algum cavalo para venda?",
+	"game:dialogue-payhorse": "Claro que sim, tenho uns belos corcéis para venda. Estaria disposto a ceder um por um vale de destrier. Ainda precisarias de uma sela e rédeas para o montar, o meu colega seleiro vende isso.",
+
+	"game:dialogue-stablemaster-anotherhorse": "Tens mais algum cavalo para venda?",
+	"game:dialogue-stablemaster-thatllbe50": "Claro, para um cliente habitual, posso deixar ir um por 50 engrenagens.",
+
+	"game:dialogue-buyhorse-havemoney": "Já tenho um vale.",
+	"game:dialogue-buyhorse-nothavemoney": "Ainda não tenho um vale, podes vender-me um?",
+
+	"game:dialogue-buyhorse-purchased": "Ótimo! Preferes um garanhão ou uma égua?",
+	"game:dialogue-buyhorse-male": "Prefiro um garanhão.",
+	"game:dialogue-buyhorse-female": "Prefiro uma égua.",
+
+	"game:dialogue-buyhorse-called": "Muito bem, aqui tens.",
+	"game:dialogue-buyhorse-callhorse-thanks": "Obrigado, vou cuidar bem dele!",
+
+	"game:What does a tack specialist do, {{npcname}}?":"O que faz um especialista em arreios, {{npcname}}?",
+	"game:dialogue-notack": "Eu importo arreios e equipamento de uma povoação distante, mas fiquei sem stock e tenho estado à espera que chegue um carregamento. Pergunto-me o que os estará a demorar tanto.<br><br>(Instala o Equus: Tack and Equipment para desbloquear o inventário deste mercador, novos bens aparecerão após o mercador reabastecer)",
+	// Setttings:
+
+	"setting-speedsettings": "Configurações de Velocidade:",
+	"setting-tradersettings": "Configurações de Mercador:",
+	"setting-title-destrier": "Corcel:",
+	"setting-destrier": "Corcel",
+
+
+	"setting-stamina": "Configurações de Vigor:",
+	"setting-maxstamina": "Vigor Máximo:",
+	"setting-staminaregen": "Regeneração de Vigor",
+	"setting-speed": "Velocidade de Movimento",
+	"setting-turnspeed": "Velocidade de Rotação",
+	"setting-staminacost": "Custos de Vigor:",
+
+	"setting-swimback": "Nadar para trás:",
+	"setting-swim": "Nadar:",
+	"setting-turnspeed-tread": "Velocidade de rotação ao boiar",
+	"setting-turnspeed-idle": "Velocidade de rotação parado",
+	"setting-disableswimback": "desativar nadar para trás",
+
+	"setting-walkback": "Andar para trás",
+	"setting-walk": "Passo",
+	"setting-canter": "Meio-galope",
+	"setting-trot": "Trote",
+	"setting-gallop": "Galope",
+	"setting-swimstaminacost": "enquanto nada",
+	"setting-minspawndistance": "Distância do Posto Avançado do Spawn",
+	"setting-mingroupdistance": "Distância do Grupo de Postos Avançados",
+	"setting-spawnChance": "Chance de Spawn do Posto Avançado",
+
+	"comment-minspawndistance": "distância mínima do spawn do mundo",
+	"comment-mingroupdistance": "distância mínima entre postos avançados de mercadores destrier",
+	"setting-voucherprice": "preço do vale destrier",
+	"setting-voucherstock": "stock de vales destrier",
+	"comment-voucherprice": "quantas engrenagens custa um vale destrier",
+	"comment-voucherstock": "quantos vales têm os mestres de estábulo (mercador) em stock",
+
+
+	"setting-pregnancysettings": "Configurações de Gravidez:",
+	"setting-pregnancydays": "duração média da gravidez",
+	"setting-pregnancycooldown": "tempo de espera médio da gravidez",
+
+	"game:equusdestrier-percent-protection": "Proteção: {0}%",
+	"game:equusdestrier-walkspeed": "Velocidade a passo: {0}%",
+
+	"equusdestrier:armorerror": "Não é possível equipar Armadura enquanto uma Manta estiver colocada!",
+	"equusdestrier:blanketerror": "Não é possível equipar uma Manta enquanto a Armadura estiver colocada!"
+
+
+
+
+
+}
+
+
+
+
